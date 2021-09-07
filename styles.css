@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.btn-group {
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+.sort-btn {
+  background: rgb(2, 2, 250);
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.sort-btn:hover {
+  background: rgb(37, 37, 251);
+}
+
+.chart {
+  width: 1200px;
+  height: 600px;
+  border: 1px solid;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.1em;
+}
+
+.bar {
+  width: 11px;
+  background: rgba(54, 162, 235, 0.3);
+  border: rgba(54, 162, 235, 1);
+}
